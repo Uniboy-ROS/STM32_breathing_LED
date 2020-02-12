@@ -15,12 +15,14 @@
         FTDI_TXD --> MCU_A10(USART1_RX)
         FTDI_RXD --> MCU_A9(USART1_TX)
 
+       * 接腳部份有問題 請參考tool裡面stm32f103的datasheet
+
 ### MCU TO LED
 
         MCU_A8(TIM1_CH1) --> 220Ω --> LED(長+) --> LED(短-) --> GND
         MCU_B6(TIM4_CH1) --> 220Ω --> LED(長+) --> LED(短-) --> GND
 
-        最終示意圖(圖為小編的亂中有序天橋建築工法，如有問題不負責任):
+        * 最終示意圖(圖為小編的亂中有序天橋建築工法，如有問題不負責任):
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/circuit.jpg)
 
 ## 環境建置
@@ -38,7 +40,8 @@
 
     6.開啟Arduino IDE 在 工具/開發板 底下 便可以選擇 Generic STM32F103C series
     7.要用FTDI傳送記得 將Upload method 設為Serial
-
+    8.(port記得連COMX，X因設備不同而異)
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/serial.PNG)
 ## 執行程式
 
     執行前記得將jumper放在boot 0 進入Programming Mode
@@ -49,3 +52,31 @@
 
 
 # 使用Micro USB連STM32F103
+
+## 環境建置
+
+    * 記得要在Programming Mode，FTDI端也要連線
+    將tool裡面的en.flasher-stm32.zip解壓縮，並照預設路徑執行安裝檔案
+    C:\Program Files (x86)\STMicroelectronics\Software\Flash Loader Demo 可找到執行檔
+    1.選擇com_port 
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/com_port.PNG)
+
+    2.接下來連點next 直到這個畫面，路徑選為tool裡面的bin檔
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/bin.PNG)
+
+    3.最後next，讓他安裝完便可來到最後一步
+    4.在C:\Program Files (x86)\Arduino\hardware\Arduino_STM32-master\drivers\win底下執行
+        install_drivers.bat和install_STM_COM_drivers.bat
+
+## Arduino IDE
+
+### 兄弟恭喜來到這一步
+
+    * 在上述步驟都完成後，我們便可將Mini USB拔下來換插MicroUSB了 
+    * 切記並切換到Operating Mode
+
+    確認是否連接上
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/device.PNG)
+
+    最後在Arduino IDE上TOOLS裡面將 Upload method 設為 bootloader (port記得連COMX，X因設備不同而異)
+    這樣就能透過Micro USB燒錄程式到STM32F103了!! Congratulations!!
