@@ -41,7 +41,7 @@
     6.開啟Arduino IDE 在 工具/開發板 底下 便可以選擇 Generic STM32F103C series
     7.要用FTDI傳送記得 將Upload method 設為Serial
     8.(port記得連COMX，X因設備不同而異)
-![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/serial.PNG)
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/serial.png)
 ## 執行程式
 
     執行前記得將jumper放在boot 0 進入Programming Mode
@@ -62,7 +62,7 @@
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/com_port.PNG)
 
     2.接下來連點next 直到這個畫面，路徑選為tool裡面的bin檔
-![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/bin.PNG)
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/bin.png)
 
     3.最後next，讓他安裝完便可來到最後一步
     4.在C:\Program Files (x86)\Arduino\hardware\Arduino_STM32-master\drivers\win底下執行
@@ -76,7 +76,7 @@
     * 切記並切換到Operating Mode
 
     確認是否連接上
-![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/device.PNG)
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/device.png)
 
     最後在Arduino IDE上TOOLS裡面將 Upload method 設為 bootloader (port記得連COMX，X因設備不同而異)
     這樣就能透過Micro USB燒錄程式到STM32F103了!! Congratulations!!
