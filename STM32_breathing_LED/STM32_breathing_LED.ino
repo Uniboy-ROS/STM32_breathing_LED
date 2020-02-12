@@ -14,7 +14,7 @@ int save3 = 0;
 int times3 = 0 ;
 
 void setup()  {
-  Serial.begin(9600);   //序列埠傳輸速率設為115200
+  Serial.begin(115200);   //序列埠傳輸速率設為115200
   pinMode(PA8, OUTPUT);    //GREEN
   pinMode(PB6, OUTPUT);    //BLUE
   pinMode(PC13, OUTPUT);    //default
