@@ -70,7 +70,7 @@
 
 ## Arduino IDE
 
-### 兄弟恭喜來到這一步
+### 兄弟恭喜來到最後了
 
     * 在上述步驟都完成後，我們便可將Mini USB拔下來換插MicroUSB了 
     * 切記並切換到Operating Mode
