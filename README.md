@@ -29,10 +29,13 @@
     2.到GitHub上下載[支援包](https://github.com/rogerclarkmelbourne)
     3.下載完後請解壓縮至路徑Arduino底下，範例: C:\Arduino\hardware 底下
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/01.PNG)
+
     4.在 開發板/開發板管理員 上面輸入STM32F1 將開發包安裝
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/02.PNG)
+
     5.接著在 檔案/偏好設定 額外的開發板網址輸入: http://dan.drown.org/stm32duino/package_STM32duino_index.json
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/03.PNG)
+
     6.開啟Arduino IDE 在 工具/開發板 底下 便可以選擇 Generic STM32F103C series
     7.要用FTDI傳送記得 將Upload method 設為Serial
 
@@ -40,6 +43,7 @@
 
     執行前記得將jumper放在boot 0 進入Programming Mode
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/mode.PNG)
+
     執行 程式 STM32_breathing_LED.ino 就可達到我們要的呼吸燈了
     也可使用 STM32_Serial.py 和 STM32_Serial.ino 來進行通訊(因設備不同COM_PORT可能有差異，小編內設為COM8)
 
