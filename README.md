@@ -42,7 +42,7 @@
 ## 執行程式
 
     執行前記得將jumper放在boot 0 進入Programming Mode
-![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/mode.PNG)
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/mode.jpg)
 
     執行 程式 STM32_breathing_LED.ino 就可達到我們要的呼吸燈了
     也可使用 STM32_Serial.py 和 STM32_Serial.ino 來進行通訊(因設備不同COM_PORT可能有差異，小編內設為COM8)
