@@ -57,7 +57,7 @@
 
     * 記得要在Programming Mode，FTDI端也要連線
     將tool裡面的en.flasher-stm32.zip解壓縮，並照預設路徑執行安裝檔案
-    C:\Program Files (x86)\STMicroelectronics\Software\Flash Loader Demo 可找到執行檔
+    C:\Program Files (x86)\STMicroelectronics\Software\Flash Loader Demo 可找到執行檔 STMFlashLoader Demo.exe
     1.選擇com_port 
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/com_port.PNG)
 
