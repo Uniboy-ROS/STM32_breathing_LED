@@ -7,7 +7,7 @@
     Programming Mode Boot 下0上1
     Operating Mode Boot 上下皆0
     
-![image]()
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/Jumper_contrast.jpg)
 
 ## Micro USB(serial)
 
@@ -15,13 +15,13 @@
     因為此板有整合CH340G(USB轉串口)的芯片，所以這個接口只能用serial燒錄
     記得在工具/開發板 將Upload method 設為Serial
     
-    照範例跑，應該會如圖所示
+    照範例Blink跑，應該會如圖所示
     
-![image]()
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/Micro_USB.jpg)
     
     回傳值應該如下
 
-![image]()
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/serial_output.PNG)
 
 ## ST-LINK
 
@@ -32,7 +32,7 @@
     但因為讀不到序列埠，所以看不到回傳值始屬正常
 
     從ST-LINK 拉出SWDIO.GND.SWCLK.3.3V 4條線接到 板子對應的腳位上(A13-SWDIO、A14-SWCLK)
-    便可以跑範例程式了
+    便可以跑範例程式Blink了
 
-![image]()
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/ST-LINK.jpg)
 
