@@ -1,4 +1,4 @@
-# STM32_breathing_LED
+# STM32_breathing_LED(使用Arduino IDE燒錄)
 
 ##  硬體部分
 
