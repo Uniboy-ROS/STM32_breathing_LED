@@ -34,5 +34,5 @@
     從ST-LINK 拉出SWDIO.GND.SWCLK.3.3V 4條線接到 板子對應的腳位上(A13-SWDIO、A14-SWCLK)
     便可以跑範例程式Blink了
 
-![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/ST-LINK.jpg)
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/ST-LINK1.jpg)
 
