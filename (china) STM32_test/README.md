@@ -4,8 +4,9 @@
 
     如下圖所示
     板子內建LED接腳為"PA4"
-    Programming Mode Boot 下0上1
-    Operating Mode Boot 上下皆0
+    Programming Mode Boot 下0上1 (BOOT0接1，BOOT1接0)
+    Operating   Mode Boot 上下皆0 (BOOT0和BOOT1接0)
+    BOOT0在圖上方，BOOT1在圖下方
     
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/Jumper_contrast.jpg)
 
