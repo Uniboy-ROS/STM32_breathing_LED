@@ -32,11 +32,11 @@
     3.下載完後請解壓縮至路徑Arduino底下，範例: C:\Arduino\hardware 底下
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/01.PNG)
 
-    4.在 開發板/開發板管理員 上面輸入STM32F1 將開發包安裝
-![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/02.PNG)
-
-    5.接著在 檔案/偏好設定 額外的開發板網址輸入: http://dan.drown.org/stm32duino/package_STM32duino_index.json
+    4.接著在 檔案/偏好設定 額外的開發板網址輸入: http://dan.drown.org/stm32duino/package_STM32duino_index.json
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/03.PNG)
+
+    5.在 開發板/開發板管理員 上面輸入STM32F1 將開發包安裝
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/02.PNG)
 
     6.開啟Arduino IDE 在 工具/開發板 底下 便可以選擇 Generic STM32F103C series
     7.要用FTDI傳送記得 將Upload method 設為Serial
