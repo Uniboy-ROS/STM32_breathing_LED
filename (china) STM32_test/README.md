@@ -37,3 +37,20 @@
 
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/ST-LINK1.jpg)
 
+## 無BOOT板
+
+    * 如果當有電路板沒有BOOT，全部都接去GND時，該怎麼燒錄呢?
+    
+    如下圖所示:
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/NO_BOOT.jpg)
+
+    1.那麼首先請你將Micro USB插上
+    2.接著開啟Arduino IDE的序列埠監控視窗
+    3.然後呢，按下板子上的RESET鍵就可以燒錄了喔
+
+    ** 備註:在未開啟序列埠監控視窗時，按下RESET它也只會RUN程式而已
+            但是在開啟序列埠監控視窗時，按下RESET他便會中止，所以才能燒錄。
+    
+    希望以上能對各位小伙伴有幫助。
+    
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/(china)%20STM32_test/image/greenflash.jpg)

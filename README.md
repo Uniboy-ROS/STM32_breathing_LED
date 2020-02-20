@@ -80,3 +80,5 @@
 
     最後在Arduino IDE上TOOLS裡面將 Upload method 設為 bootloader (port記得連COMX，X因設備不同而異)
     這樣就能透過Micro USB燒錄程式到STM32F103了!! Congratulations!!
+
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/dog.jpg)
