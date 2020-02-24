@@ -1,4 +1,5 @@
-# STM32_breathing_LED(使用Arduino IDE燒錄)
+ STM32_breathing_LED(使用Arduino IDE燒錄)
+========================================
 
 ##  硬體部分
 
@@ -8,7 +9,7 @@
 
 ## 電路連接
 
-### FTDI TO MCU
+# 使用FTDI連STM32F103
 
         FTDI_VCC --> MCU_5V
         FTDI_GND --> MCU_G
@@ -28,7 +29,7 @@
 ## 環境建置
 
     1.請先下載 Arduino IDE ，並安裝好
-    2.到GitHub上下載[支援包](https://github.com/rogerclarkmelbourne)
+    2.到GitHub上下載[git](https://github.com/rogerclarkmelbourne/Arduino_STM32.git)
     3.下載完後請解壓縮至路徑Arduino底下，範例: C:\Arduino\hardware 底下
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/01.PNG)
 
