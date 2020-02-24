@@ -23,7 +23,7 @@
         MCU_A8(TIM1_CH1) --> 220Ω --> LED(長+) --> LED(短-) --> GND
         MCU_B6(TIM4_CH1) --> 220Ω --> LED(長+) --> LED(短-) --> GND
 
-        * 最終示意圖(圖為小編的亂中有序天橋建築工法，如有問題不負責任):
+* 最終示意圖(圖為小編的亂中有序天橋建築工法，如有問題不負責任):
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/circuit.jpg)
 
 ## 環境建置
@@ -31,6 +31,7 @@
     1.請先下載 Arduino IDE ，並安裝好
     2.到GitHub上下載
 * [支援包](https://github.com/rogerclarkmelbourne/Arduino_STM32.git)
+    
     3.下載完後請解壓縮至路徑Arduino底下，範例: C:\Arduino\hardware 底下
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/01.PNG)
 
@@ -57,7 +58,7 @@
 
 ## 環境建置
 
-    * 記得要在Programming Mode，FTDI端也要連線
+* 記得要在Programming Mode，FTDI端也要連線
     將tool裡面的en.flasher-stm32.zip解壓縮，並照預設路徑執行安裝檔案
     C:\Program Files (x86)\STMicroelectronics\Software\Flash Loader Demo 可找到執行檔 STMFlashLoader Demo.exe
     1.選擇com_port 
@@ -74,8 +75,8 @@
 
 ### 兄弟恭喜來到最後了
 
-    * 在上述步驟都完成後，我們便可將Mini USB拔下來換插MicroUSB了 
-    * 切記並切換到Operating Mode
+* 在上述步驟都完成後，我們便可將Mini USB拔下來換插MicroUSB了 
+* 切記並切換到Operating Mode
 
     確認是否連接上
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/device.png)
