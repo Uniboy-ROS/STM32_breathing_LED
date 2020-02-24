@@ -9,14 +9,14 @@
 
 ## 電路連接
 
-# 使用FTDI連STM32F103
+# 1.使用FTDI連STM32F103
 
         FTDI_VCC --> MCU_5V
         FTDI_GND --> MCU_G
         FTDI_TXD --> MCU_A10(USART1_RX)
         FTDI_RXD --> MCU_A9(USART1_TX)
 
-       * 接腳部份有問題 請參考tool裡面stm32f103的datasheet
+* 接腳部份有問題 請參考tool裡面stm32f103的datasheet
 
 ### MCU TO LED
 
@@ -29,7 +29,8 @@
 ## 環境建置
 
     1.請先下載 Arduino IDE ，並安裝好
-    2.到GitHub上下載[git](https://github.com/rogerclarkmelbourne/Arduino_STM32.git)
+    2.到GitHub上下載
+* [支援包](https://github.com/rogerclarkmelbourne/Arduino_STM32.git)
     3.下載完後請解壓縮至路徑Arduino底下，範例: C:\Arduino\hardware 底下
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/01.PNG)
 
@@ -52,7 +53,7 @@
     也可使用 STM32_Serial.py 和 STM32_Serial.ino 來進行通訊(因設備不同COM_PORT可能有差異，小編內設為COM8)
 
 
-# 使用Micro USB連STM32F103
+# 2.使用Micro USB連STM32F103
 
 ## 環境建置
 
