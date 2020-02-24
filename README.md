@@ -30,6 +30,7 @@
 
         1.請先下載 Arduino IDE ，並安裝好
         2.到GitHub上下載支援包
+        
 * [支援包傳送門](https://github.com/rogerclarkmelbourne/Arduino_STM32.git)
     
         3.下載完後請解壓縮至路徑Arduino底下，範例: C:\Arduino\hardware 底下
@@ -61,7 +62,9 @@
 * 記得要在Programming Mode，FTDI端也要連線
 * 將tool裡面的en.flasher-stm32.zip解壓縮，並照預設路徑執行安裝檔案
 * C:\Program Files (x86)\STMicroelectronics\Software\Flash Loader Demo 可找到執行檔 STMFlashLoader Demo.exe
+
         1.選擇com_port 
+
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/com_port.PNG)
 
         2.接下來連點next 直到這個畫面，路徑選為tool裡面的bin檔
