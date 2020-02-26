@@ -23,6 +23,9 @@
         MCU_A8(TIM1_CH1) --> 220Ω --> LED(長+) --> LED(短-) --> GND
         MCU_B6(TIM4_CH1) --> 220Ω --> LED(長+) --> LED(短-) --> GND
 
+* 電路圖
+![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/FTDI_STM32_LED.png)
+
 * 最終示意圖(圖為小編的亂中有序天橋建築工法，如有問題不負責任):
 ![image](https://github.com/Uniboy-ROS/STM32_breathing_LED/blob/master/picture/circuit.jpg)
 
