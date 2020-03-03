@@ -45,7 +45,7 @@ class LED {
 };
 
 //
-LED light_Y(PA8);                             //設定10為輸出
+LED light_G(PA8);                             //設定10為輸出
 LED light_B(PB6);                             //設定11為輸出
 LED light_W(PC13);
 
@@ -101,10 +101,10 @@ void loop() {
           Serial.println(cc);
 
           int new_delay_time = bb.toInt();        //宣告新變數為整數 = 將bb從字串轉為整數
-          if (x1 == 'y') {                         //x1這個字元讀取到r時，變更改light_R頻率
-            light_Y.delaytime = new_delay_time;
+          if (x1 == 'g') {                         //x1這個字元讀取到r時，變更改light_R頻率
+            light_G.delaytime = new_delay_time;
           }
-          if (x1 == 'b') {                          //x1這個字元讀取到y時，變更改light_Y頻率
+          if (x1 == 'b') {                          //x1這個字元讀取到y時，變更改light_G頻率
             light_B.delaytime = new_delay_time;
           }
           if (x1 == 'w') {
@@ -122,15 +122,15 @@ void loop() {
 
           Serial.println(dd);
 
-          if (x1 == 'y') {                         //x1這個字元讀取到r時，變更改light_R頻率
+          if (x1 == 'g') {                         //x1這個字元讀取到r時，變更改light_R頻率
             if (p1 == '1') {
-              light_Y.breath = true;
+              light_G.breath = true;
             }
             else if (p1 == '0') {
-              light_Y.breath = false;
+              light_G.breath = false;
             }
           }
-          if (x1 == 'b') {                          //x1這個字元讀取到y時，變更改light_Y頻率
+          if (x1 == 'b') {                          //x1這個字元讀取到y時，變更改light_G頻率
             if (p1 == '1') {
               light_B.breath = true;
             }
@@ -150,7 +150,7 @@ void loop() {
       }
     }
   }
-  light_Y.lightbright();             //不能該在判斷式內，應不斷執行(在Serial.available>0裡面一開始就不會亮)
+  light_G.lightbright();             //不能該在判斷式內，應不斷執行(在Serial.available>0裡面一開始就不會亮)
   light_B.lightbright();
   light_W.lightbright();
 }

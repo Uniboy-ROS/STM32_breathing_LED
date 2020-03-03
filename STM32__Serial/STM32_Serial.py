@@ -11,17 +11,19 @@ ser = serial.Serial(COM_PORT, BAUD_RATES)
 try:
     while True:
         # 接收用戶的輸入值並轉成小寫
-        choice = input('輸入指令 sdy/b/w 000e or scy/b/w 1/0e :  ').lower() 
+        # 下面為指令部分 Ex : sdg500e 綠燈頻率改為500ms ， sdb100e 藍燈頻率改為100ms 。
+        # 底下 快速鍵 能快速開關燈
+        choice = input('輸入指令 sdg/b/w 000e or scg/b/w 1/0e :  ').lower() 
          
         if len(choice) > 7: 
             print ('Error! Only 7 characters allowed!')                
         elif choice == '1':
             print('傳送綠燈ON')
-            ser.write(b'scy1e')
+            ser.write(b'scg1e')
             sleep(0.5)
         elif choice == '2':
             print('傳送綠燈OFF')
-            ser.write(b'scy0e')
+            ser.write(b'scg0e')
             sleep(0.5)
         elif choice == '4':
             print('傳送藍燈ON')
